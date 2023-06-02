@@ -267,6 +267,8 @@ ul {
 body {
   background:rgb(177, 192, 199);
   min-height: 100vh;
+  border:1px solid rgb(177, 192, 199);
+  position: relative;
 }
 
 .page-title {
@@ -360,17 +362,17 @@ main {
  /* footer */
  .footer {
    background:rgb(61, 84, 95);
-   height: 3rem;
-   width: 100%;
+  width: 100%;
    text-align: center;
-   position: fixed;
+   position: absolute;
    bottom: 0;
    left: 0;
    right: 0;
 }
   
  .footer p {
-    padding: 1rem;
+    font-size: 0.7rem;
+    padding: 1rem 0rem;
     color:rgb(177, 192, 199);
  }
 
